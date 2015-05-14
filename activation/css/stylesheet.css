@@ -1,5 +1,5 @@
 body{
-	font-family: 'Noto Sans', '黑體', sans-serif;
+	font-family: 'Noto Sans', '黑體', '微軟正黑體', sans-serif;
 }
 
 h5{
@@ -7,14 +7,6 @@ h5{
 	color: #002e73;
 	line-height:10px; 
 	font-size: 28px;
-}
-
-h6{
-	margin-left: -50px;
-	padding-top: 15px;
-	color: #002e73;
-	font-size: 24px;
-	text-align: center;
 }
 
 p{
@@ -41,7 +33,6 @@ p{
 	height: 600px;
 	z-index: 1;
 	position: absolute;
-	margin-top: 10px;
 	margin-left: -150px;
 }
 
@@ -57,7 +48,6 @@ p{
 	display: inline;
 	position: absolute;
 	z-index: 1;
-	margin-top: 5%;
 }
 
 .rightBox{
@@ -80,6 +70,14 @@ p{
 	font-size: 28px;
 }
 
+.heading h6{
+	margin-left: -50px;
+	padding-top: 15px;
+	color: #002e73;
+	font-size: 24px;
+	text-align: center;
+}
+
 .heading p {
 	font-size: 18px;
 	padding-left:50px;
@@ -99,6 +97,7 @@ p{
 	font-size: 24px;
 	padding-left:50px;
 }
+
 
 
 /*Section 1*/
@@ -222,7 +221,16 @@ p{
 #people{
 	color:#fff; 
 	text-align:center;
-	margin-left: -100px;
+	height: 20px;
+	margin-left: -10%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	font-size: 28px;
+}
+
+.slideTitle{
+	font-size: 28px;
+	margin-top: -5%;
 }
 
 /*Section 4*/
@@ -240,22 +248,24 @@ p{
 }
 
 #cover03{
-	display: inline-block;
+	display: inline;
 	position: absolute;
 	z-index: 2;
 	height: 300px;
-	margin-left: 73%;
+	margin-top: 4%;
+	margin-left: -389px;
 }
 
 #cover04{
-	display: inline-block;
+	display: inline;
 	position: absolute;
 	z-index: 2;
 	height: 300px;
 }
 
+
 #teacher{
-	width: 190px;
+	width: 170px;
 }
 
 /*Section 5*/
@@ -267,20 +277,22 @@ p{
 }
 
 #cover05{
-	display: inline-block;
+	display: inline;
 	position: absolute;
 	z-index: 2;
 	height: 300px;
-	margin-left: 73%;
+	margin-top: 2%;
+	margin-left: -389px;
 }
 
 #cover06{
-	display: inline-block;
+	display: inline;
 	position: absolute;
 	z-index: 2;
 	height: 300px;
-	margin-left: 73%;
+	margin-left: -389px;
 }
+
 
 #address{
 	height: 20px;
@@ -382,10 +394,6 @@ p{
 	margin-left: 180px;
 }
 
-.cs-style-1 figcaption a {
-	margin-top: 30px;
-}
-
 /* Caption Style 7 */
 .cs-style-7 li:first-child { z-index: 6; }
 .cs-style-7 li:nth-child(2) { z-index: 5; }
@@ -399,8 +407,8 @@ p{
 }
 
 .cs-style-7 figcaption {
-	height: 265px;
-	width: 190px;
+	height: 250px;
+	width: 170px;
 	opacity: 0;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -409,6 +417,7 @@ p{
 	-moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
 	transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
 	box-shadow: 0 0 0 0px #1c1b23;
+	margin-top: -10%;
 }
 
 .no-touch .cs-style-7 figure:hover figcaption,
@@ -420,22 +429,19 @@ p{
 
 .cs-style-7 figcaption h3 {
 	font-size: 24px;
-	margin-top: 102%;
-}
-
-.cs-style-7 figcaption h3,
-.cs-style-7 figcaption span,
-.cs-style-7 figcaption a {
+	margin-top: 100%;
 	opacity: 0;
 	-webkit-transition: opacity 0s;
 	-moz-transition: opacity 0s;
 	transition: opacity 0s;
 }
 
-.cs-style-7 figcaption a {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
+.cs-style-7 figcaption span{
+	font-size: 14px;
+	opacity: 0;
+	-webkit-transition: opacity 0s;
+	-moz-transition: opacity 0s;
+	transition: opacity 0s;
 }
 
 .no-touch .cs-style-7 figure:hover figcaption h3,
