@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
 	<!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -11,7 +11,7 @@
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1">
 
   <!-- Google FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -108,7 +108,7 @@
           </div>
           <div class="grid_6">
             <p>｜地點：台灣科技大學國際大樓1樓</p>
-            <p>◎ 開幕茶會：<br>　5.21(四) 8:30~10:00 @IB-304教室</p>
+            <p>◎ 開幕茶會：<br>　5.21(四) 12:30~14:00 @IB一樓B展區</p>
           </div>
         </div>
       </div>
@@ -738,10 +738,7 @@
         <div id="address"><span style="margin-top:10px">台灣科技大學：臺北市大安區基隆路四段 43 號</span></div>
       </div>
     </div>
-
   </div>
-
-
 
 	<!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -768,36 +765,35 @@
 
   <!--lightbox-->
   <script>
-      $(document).ready(function() {
-          $('.fancybox').fancybox({
-              padding : 0,
-              openEffect  : 'elastic'
-          });
+    $(document).ready(function() {
+      $('.fancybox').fancybox({
+          padding : 0,
+          openEffect  : 'elastic'
       });
+    });
   </script>
 
   <!--Google Map-->
   <script>
-  var myCenter=new google.maps.LatLng(25.013136, 121.541663);
+    var myCenter=new google.maps.LatLng(25.013136, 121.541663);
 
-  function initialize()
-  {
-  var mapProp = {
-    center:myCenter,
-    zoom:15,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-    };
+    function initialize() {
+      var mapProp = {
+        center:myCenter,
+        zoom:15,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
 
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-  var marker=new google.maps.Marker({
-    position:myCenter,
-    });
+      var marker=new google.maps.Marker({
+        position:myCenter,
+      });
 
-  marker.setMap(map);
-  }
+      marker.setMap(map);
+    }
 
-  google.maps.event.addDomListener(window, 'load', initialize);
+    google.maps.event.addDomListener(window, 'load', initialize);
   </script>
 
   <!-- End script
