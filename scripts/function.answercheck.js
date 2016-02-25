@@ -1,0 +1,1 @@
+jQuery.validator.addMethod("answercheck",function(t,e){return this.optional(e)||/^\bcat\b$/.test(t)},"type the correct answer -_-");
