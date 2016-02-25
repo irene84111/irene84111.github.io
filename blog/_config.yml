@@ -66,6 +66,8 @@ pagination_dir: page
 theme: landscape
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:irene84111/irene84111.github.io
+  branch: blog
