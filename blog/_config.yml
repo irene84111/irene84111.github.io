@@ -69,5 +69,5 @@ theme: landscape
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/irene84111/irene84111.github.io.git
+  repo: https://github.com/irene84111/irene84111.github.io
   branch: blog
