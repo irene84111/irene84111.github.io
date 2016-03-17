@@ -95,8 +95,6 @@ footer .copyright{text-align:right!important}
 .cd-panel-header{position:fixed;width:100%;height:auto;padding:20px;background:#fff;z-index:2;transition:top .3s 0s}
 .cd-panel-header h6{color:rgba(51,51,51,.9)}
 .cd-panel-header p{font-size:14px;color:#777;margin:0;padding-top:10px;line-height:24px}
-.cd-panel-header a{color:rgba(51,51,51,.9)}
-.cd-panel-header a:hover{color:rgba(119,119,119,.9)}
 .cd-panel-header .cd-panel-close{position:absolute;top:0;right:0;width:60px;height:60px}
 .cd-panel-header .cd-panel-close i{margin:20px}
 .from-right .cd-panel-header{top:-300px;right:0}
@@ -107,8 +105,6 @@ footer .copyright{text-align:right!important}
 .cd-small-header{width:100%;height:auto;padding:20px;background:#fff;position:relative;z-index:2;transition:top .3s 0s}
 .cd-small-header h6{color:rgba(51,51,51,.9)}
 .cd-small-header p{font-size:14px;color:#777;margin:0;padding-top:10px;line-height:24px}
-.cd-small-header a{color:rgba(51,51,51,.9)}
-.cd-small-header a:hover{color:rgba(119,119,119,.9)}
 .cd-small-header .cd-panel-close{position:fixed;top:0;right:0;width:60px;height:60px}
 .cd-small-header .cd-panel-close i{margin:35px 0 0 10px}
 .from-right .cd-panel-container{right:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
@@ -176,7 +172,7 @@ footer .copyright{text-align:right!important}
 .home-page .home-box .work article{margin:10px 0 60px}
 .home-page .home-box .work article .image{height:200px;background-position:top center;background-size:cover;border-radius:3px;margin-bottom:20px}
 .home-page .home-box .blog article{margin-bottom:40px}
-.home-page .home-box .blog article .image{background-position:top center;background-size:cover;height:150px;border-radius:3px}
+.home-page .home-box .blog article .image{background-size:cover;background-position:center center;height:150px;border-radius:3px}
 .home-page .home-box .blog article .post{padding:15px 0;position:relative}
 .home-page .home-box .blog article .post span{font-size:12px;color:#777}
 .home-page .home-box .blog article .post p{margin:5px 0;font-size:14px;color:#777}
