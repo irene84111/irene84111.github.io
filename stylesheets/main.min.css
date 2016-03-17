@@ -162,7 +162,7 @@ footer .copyright{text-align:right!important}
 .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date{left:auto;right:135%;text-align:right}
 }
 body:before{content:"";display:block;position:fixed;left:0;top:0;width:100%;height:100%;z-index:-10;background:url(../images/bg.jpg) center center no-repeat;background-size:cover}
-.home-page{background:url(../images/bg.jpg) center center no-repeat fixed;background-size:cover;padding:0 20px}
+.home-page{padding:0 20px}
 .home-page .cover{height:100vh}
 .home-page .cover .cover-title{position:absolute;bottom:10px;left:0;text-align:center}
 .home-page .cover .cover-title h1{font-size:36px;color:rgba(51,51,51,.9);text-shadow:8px 8px 3px rgba(77,160,176,.3),-2px -2px 5px rgba(213,51,105,.6),0 0 10px rgba(255,255,255,.8)}
