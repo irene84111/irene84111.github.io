@@ -158,7 +158,6 @@ footer .copyright{text-align:right!important}
 .cd-timeline-block:nth-child(even) .cd-timeline-content::before{top:24px;left:auto;right:100%;border-color:transparent #fff transparent transparent}
 .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date{left:auto;right:135%;text-align:right}
 }
-body:before{content:"";display:block;position:fixed;left:0;top:0;width:100%;height:100%;z-index:-10;background:url(../images/bg.jpg) center center no-repeat;background-size:cover}
 .home-page{padding:0 20px}
 .home-page .cover{height:100vh}
 .home-page .cover .cover-title{position:absolute;bottom:10px;left:0;text-align:center}
