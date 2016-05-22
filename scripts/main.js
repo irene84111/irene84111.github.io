@@ -1,0 +1,1 @@
+$(function(){$("#discover").bind("click",function(t){var o=$(this);$("html, body").stop().animate({scrollTop:$(o.attr("href")).offset().top},1500,"easeInOutExpo"),t.preventDefault()}),$("#back-to-top").on("click",function(t){t.preventDefault(),$("html,body").animate({scrollTop:0},700,"easeInOutExpo")})});

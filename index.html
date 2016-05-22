@@ -14,9 +14,7 @@
     <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css">
     <link href="stylesheets/main.min.css" rel="stylesheet" type="text/css">
     <script src="scripts/jquery-1.12.0.min.js" type="text/javascript"></script>
-    <script src="scripts/prefixfree.min.js" type="text/javascript"></script>
     <script src="scripts/fastclick.js" type="application/javascript"></script>
-    <script src="scripts/smooth-scroll.js" type="text/javascript"></script>
     <script>
       $(function() {
         FastClick.attach(document.body);
@@ -42,7 +40,7 @@
           <div class="row">
             <div class="small-12 columns cover-title">
               <h1>YA YIN CHANG</h1>
-              <p>Graphic Designer &amp; Web Developer</p><a href="#start"><i class="fa fa-angle-down fa-3x"></i></a>
+              <p>Graphic Designer &amp; Web Developer</p><a id="discover" href="#start"><i class="fa fa-angle-down fa-3x"></i></a>
             </div>
           </div>
         </section>
@@ -86,8 +84,8 @@
                           </div>
                           <div class="chart chart-dev"><span class="chart-title">Development</span>
                             <ul class="chart-horiz">
-                              <li data-skill="90" class="chart_bar chart_html"><span class="chart_label">HTML</span></li>
-                              <li data-skill="80" class="chart_bar chart_css"><span class="chart_label">CSS &amp; SCSS   </span></li>
+                              <li data-skill="90" class="chart_bar chart_html"><span class="chart_label">HTML / Jade</span></li>
+                              <li data-skill="80" class="chart_bar chart_css"><span class="chart_label">CSS / SCSS   </span></li>
                               <li data-skill="50" class="chart_bar chart_js"><span class="chart_label">JavaScript</span></li>
                             </ul>
                           </div>
@@ -121,25 +119,25 @@
                 <div class="row">
                   <div class="small-10 small-centered columns">
                     <div class="content text-center">
-                      <p>Welcome to look at what I'v done lately:</p>
+                      <p>Welcome to look at what I'v shared lately:</p>
                     </div>
                   </div>
                   <div class="small-10 small-centered columns">
                     <article>
                       <div style="background-image:url('images/post.jpg')" class="image"></div>
                       <div class="post">
-                        <h6> 2.0 x Double Y & C</h6><span>2016-03-17</span>
-                        <p>有些人看過我的個人網頁 1.0，那是一個既沒有框架也沒有模板的悲劇。事隔一年，終於升級了！本文就要來談談打了一年新手怪的心路歷程，以及 Gulp 和 Hexo 的使用心得。</p><a href="/blog/2016/03/17/2-0-Double-Y-C/" target="_blank" class="special">Read more</a>
+                        <h6> 前端初心者談心路歷程</h6><span>2016-04-14</span>
+                        <p>在每週 Coding 的時間突破 35 個小時的激勵（ 我怎麼會知道？！推薦外掛 WakaTime 追蹤你的 Coding Time）與似乎真的有讀者關注我的鼓勵之下，這篇心路歷程終於在今天產出。⋯⋯</p><a href="/blog/2016/04/14/journey-of-front-end/" target="_blank" class="special">Read more</a>
                       </div>
                     </article>
                   </div>
-                  <div class="small-12 columns"><a href="./blog" class="secondary hollow button btn-blog">Blog | <strong>Double Y & C</strong></a></div>
+                  <div class="small-12 columns"><a href="./blog" target="_blank" class="secondary hollow button btn-blog">Blog | <strong>Double Y & C</strong></a></div>
                 </div>
               </section>
               <footer>
                 <div class="row">
                   <div class="small-10 small-centered columns">
-                    <div class="small-12 columns top"><a href="#top"><i class="fa fa-angle-double-up"></i>
+                    <div class="small-12 columns top"><a id="back-to-top" href="#"><i class="fa fa-angle-double-up"></i>
                         <p>Top</p></a></div>
                     <div class="small-12 medium-5 columns">
                       <div class="social-link"><a href="mailto:irene84111@gmail.com" class="fa fa-envelope fa-lg"></a><a href="https://www.facebook.com/irene.chang.735" target="_blank" class="fa fa-facebook-square fa-lg"></a><a href="https://github.com/irene84111" target="_blank" class="fa fa-github-square fa-lg"></a></div>
@@ -198,7 +196,7 @@
                    
                   This was the last part of my JavaScript Club Course of <abbr title="NTUST Coding Club">NCC.</abbr>
                 </p>
-                <p>By collaborating with <a href="http://jsdc.tw" target="_blank">JSDC.TW</a>, we held a workshop for students to learn more about HTML, CSS and JavaScript.</p><a href="#" style="margin-top:20px" class="disabled hollow button">More</a><span class="cd-date">Dec. 19</span>
+                <p>By collaborating with <a href="http://jsdc.tw" target="_blank">JSDC.TW</a>, we held a workshop for students to learn more about HTML, CSS and JavaScript.</p><span class="cd-date">Dec. 19</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -206,7 +204,7 @@
               <div class="cd-timeline-content">
                 <h6>2015 Hack Hsinchu City</h6>
                 <p>The first Hackathon I participated. I was invited by one of my colleague in EXMA and we had a great time making an official website for Hsinchu City.</p>
-                <p>To our surprise, we won the third-place of the competition :-D </p><a href="#" style="margin-top:20px" class="disabled hollow button">More</a><span class="cd-date">Nov. 28</span>
+                <p>To our surprise, we won the third-place of the competition :-D </p><span class="cd-date">Nov. 28</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -217,7 +215,7 @@
                   Javascript Club Course @ NCC
                 </h6>
                 <p>We held three courses of different programming languages this semester and I was responsible of JavaScript.</p>
-                <p>By teaching 2 hours a week, I introduced the begainners to the world of programming. It was very challenging and I learnt a lot.</p><a href="#" style="margin-top:20px" class="disabled hollow button">More</a><span class="cd-date">Oct. 16 - Dec. 04</span>
+                <p>By teaching 2 hours a week, I introduced the begainners to the world of programming. It was very challenging and I learnt a lot.</p><span class="cd-date">Oct. 16 - Dec. 04</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -247,7 +245,7 @@
                    
                   The activity hold by <a href="https://sudo.com.tw/" target="_blank">Sudo </a>&amp; <a href="https://www.makeschool.com/" target="_blank">Make School </a>for people who want to learn about programing.
                 </p>
-                <p>I helped the event as an assistant and had a great fun of sharing what I've known. </p><a href="#" style="margin-top:20px" class="disabled hollow button">More</a><span class="cd-date">Aug. 18 - 20</span>
+                <p>I helped the event as an assistant and had a great fun of sharing what I've known. </p><span class="cd-date">Aug. 18 - 20</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -258,7 +256,7 @@
                    
                   The workshop was held by one of my classmate. He was graduated from <abbr title="National Lo-Tung Senior High School (國立羅東高中)">LTSH </abbr>and eagered to bring what he had learnt back to his school.
                 </p>
-                <p>He asked me for help so I became one of the coaches and we taught about web design.</p><a href="#" style="margin-top:20px" class="disabled hollow button">More</a><span class="cd-date">Jul. 20 - 21</span>
+                <p>He asked me for help so I became one of the coaches and we taught about web design.</p><span class="cd-date">Jul. 20 - 21</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -266,7 +264,7 @@
               <div class="cd-timeline-content">
                 <h6>Exhibition - 機發態 Activation</h6>
                 <p>This is a mini-scaling exhibition held by our class independently, we displayed our works of design, art and architecture.</p>
-                <p>I was the vice-president of the exhibition. The preparation took more than half a year and it was  This was a great opportunity for self-training.</p><a href="#" style="margin-top:20px" class="disabled hollow button">More</a><span class="cd-date">May. 21 - 24</span>
+                <p>I was the vice-president of the exhibition. The preparation took more than half a year and it was  This was a great opportunity for self-training.</p><span class="cd-date">May. 21 - 24</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -288,7 +286,10 @@
       </div>
     </div>
     <script src="scripts/foundation.min.js" type="text/javascript"></script>
+    <script src="scripts/jquery.easing.min.js" type="text/javascript"></script>
+    <script src="scripts/prefixfree.min.js" type="text/javascript"></script>
     <script src="scripts/scrollreveal.min.js" type="text/javascript"></script>
+    <script src="scripts/main.js" type="text/javascript"></script>
     <script src="scripts/vertical-nav.js" type="text/javascript"></script>
     <script src="scripts/slide-in-panel.js" type="text/javascript"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js" type="text/javascript"></script>
