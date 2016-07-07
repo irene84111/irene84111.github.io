@@ -78,7 +78,7 @@ ul{width:auto;list-style-type:none}
 }
 footer{padding-top:30px}
 footer .top p{margin-top:-10px}
-footer .social-link{width:90px;margin:0 auto 20px}
+footer .social-link{width:120px;margin:0 auto 20px}
 footer a{color:rgba(51,51,51,.8);display:inline-block;padding:0 5px}
 footer a:hover{color:#777}
 footer .copyright{color:#333;font-size:12px}
@@ -168,8 +168,11 @@ footer .copyright{text-align:right!important}
 .home-page .home-box .about{color:#333;margin:0 auto;padding:60px 0 0}
 .home-page .home-box .about .portrait{width:200px;height:200px;margin:0 auto}
 .home-page .home-box .about .portrait img{border-radius:100%}
-.home-page .home-box .work article{margin:10px 0 60px}
-.home-page .home-box .work article .image{height:200px;background-position:top center;background-size:auto 100%;border-radius:3px;margin-bottom:20px}
+.home-page .home-box .work article{margin-bottom:30px}
+.home-page .home-box .work article .special{display:block;padding:10px;text-align:center;font-style:italic;text-decoration:underline;color:#777}
+.home-page .home-box .work article .special i{padding-right:5px}
+.home-page .home-box .work article .special:hover{color:#555}
+.home-page .home-box .work .btn-work{width:220px}
 .home-page .home-box .blog article{margin-bottom:40px}
 .home-page .home-box .blog article .image{background-position:center center;background-size:cover;height:200px;border-radius:3px}
 .home-page .home-box .blog article .post{padding:15px 0;position:relative}
